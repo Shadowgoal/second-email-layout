@@ -1,0 +1,95 @@
+/*
+.left {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    background-color: white;
+    margin-right: 3px;
+}
+
+.content {
+    height: 10px;
+    margin: 3px 0;
+    border: 1px solid black;
+    background-color: green;
+    overflow: hidden;
+}
+.text {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 2.7;
+}
+p {
+    text-align: center;
+}*/
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: black;
+    display: inline-flex;
+}
+.menu_button {
+    height: 50px;
+    width: 150px;
+    margin: 50px;
+    background: white;
+
+}
+.content {
+    width: 100%;
+    height: 1000px;
+    background: white;
+    display: inline-flex;
+}
+.side-bar {
+    height: inherit;
+    width: 150px;
+    display: block;
+    background: black;
+}
+
+.side-bar__button {
+    height: 50px;
+    width: 50px;
+    margin: 40px;
+    background: white;
+}
+.common {
+    height: inherit;
+    width: 100%;
+    background: red;
+}
+.table {
+    margin: 50px;
+    width: 1000px;
+    height: 300px;
+    display: table;
+    border-spacing: 11px;
+}
+.row {
+    display: table-row;
+    height: 100px;
+    width: inherit;
+    background: red;
+}
+.cell {
+    display: table-cell;
+    background: white;
+    width: 100px;
+    height: 100px;
+}
+.column {
+    display: table-column;
+    height: 700px;
+    width: 100px;
+    background: red;
+}
+.table2 {
+    width: 300px;
+    height: 800px;
+    display: table;
+    border-spacing: 11px;
+}
